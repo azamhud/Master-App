@@ -1,0 +1,15 @@
+html{
+    -webkit-user-select:none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+.body-default{
+    background-image: url("../../resource/images/Background-01.jpg");
+}
+
+.keypad{
+    position: fixed;
+    top: 300px;
+    left: 310px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/button.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/label.css">
+    <link rel="stylesheet" href="../assets/css/images.css">
+    <title>NoRekeningPenyetor</title>
+  </head>
+  <body class="body-default" id="main-body" >
+    <div class="label-norekpenyetor" style="position: relative; top:50px;">DATA PENYETOR</div>
+    <div class="label-norekpenyetor" style="position: relative; top:50px;">MASUKAN NOMOR REKENING BCA PENYETOR</div>
+    <div class="label-norekpenyetor-1" style="position: relative; top:50px;">(JIKA TIDAK ADA, TEKAN 'LANJUT')</div>
+    <div>
+        <button class="button-norekpenyetor-lanjut" id="btnLanjut" ></button>
+        <button class="button-norekpenyetor-batal" id="btnBatal" ></button>
+    </div>
+    <textarea class="txtarea" id="write" rows="6" cols="60" readonly></textarea>
+    <div class="keypad" id="keypad" >
+        <object id="kopet" data="./extend/Keypad.html" width="186px" height="251px" ></object>
+    </div>
+    
+  </body>
+  
+  <script src="../render3.js"></script>
+  <script src="../render4.js" defer></script>
+</html>
